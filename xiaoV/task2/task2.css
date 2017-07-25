@@ -1,0 +1,22 @@
+
+a{
+	text-decoration: none;
+}
+header{
+	height: 60px;
+	width: 100%;
+	background-color: white;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url(img/goole.png);	
+}
+header ul{
+	float: right;
+}
+header li{
+	float: left;
+	list-style: none;
+}
+header li a{
+	color: blue;
+}
