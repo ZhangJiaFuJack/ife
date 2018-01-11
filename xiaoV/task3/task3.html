@@ -10,51 +10,73 @@
       border:1px solid #999;
       box-sizing:border-box;
     }
+    aside{
+      border:1px solid #999999;
+    }
     .container{
-      padding:20px;
-      background-color:#eeeeee;
-    }
-    .left-side{
-      float:left;
-      width:200px;
-      padding:19px;
-    }
-    .left-side img{
-      width:80px;
-      height:80px;
-      margin-right:19px;
-    }
-    .right-side{
-      float:right;
-      width:120px;
-      padding:19px;
-    }
-    .right-side img{
-      width:80px;
-      height:80px;
-      margin-bottom:15px;
-    }
-    .right-side img:last-child{
-      margin-bottom:0;
+      padding:20px 160px 20px 240px;
+      overflow:hidden;
+      min-width:640px;
     }
     main{
-      width:100%;
-      height:100%;
-      overflow:hidden;
+      float:left;
       background-color:#0a8cd2;
+      width:100%;
+      border:1px solid #999999;
+      box-sizing:border-box;
+    }
+    .left-side{
+      position:relative;
+      right:220px;
+      margin-left:-100%;
+      float:left;
+      background-color:#00ff80;
+      box-sizing:border-box;
+      width:200px;
+      padding:20px;
+    }
+    .left-side img{
+      vertical-align:top;
+      width:80px;
+      height:80px;
+      box-sizing:border-box;
+      border:1px solid #999;
+    }
+    .left-side span{
+      vertical-align:top;
+    }
+    .right-side{
+      position:relative;
+      left:140px;
+      margin-left:-120px;
+      padding:20px;
+      float:left;
+      box-sizing:border-box;
+      width:120px;
+      background-color:brown;
+    }
+    .right-side img{
+      vertical-align:top;
+      width:80px;
+      width:80px;
+      box-sizing:border-box;
+      border:1px solid #999;
+    }
+    .right-side img:last-child{
+     
     }
   </style>
 </head>
 <body>
 <div class="container">
+  <main>团队名称团队名称团队名称团队名称团队名称团队名称团队名称团队名称团队名称团队名称团队名称团队名称团队名称团队名称团队名称团队名称团队名称团队名称团队名称团队名称团队名称团队名称团队名称团队名称团队名称团队名称团队名称团队名称团队名称团队名称团队名称团队名称团队名称团队名称团队名称团队名称团队名称团队名称v</main>
   <aside class="left-side">
-    <img src="/img/test.png" alt="test">
+    <img src="../../img/test.png" alt="test">
     <span>团队名称</span>
   </aside>
   <aside class="right-side">
-    <img src="/img/test.png" alt="test">
+    <img src="../../img/test.png" alt="test">
   </aside>
-  <main>1</main>
 </div>
 <script>
 
